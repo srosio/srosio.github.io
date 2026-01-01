@@ -30,7 +30,7 @@ title: Trading Logs
 
       <!-- Trade Basic Info -->
       <div style="margin-bottom: 2rem;">
-        <h4 style="color: var(--trading-gold); margin-bottom: 1rem;">Trade Information</h4>
+        <h4 style="color: var(--gold); margin-bottom: 1rem;">Trade Information</h4>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
           <div class="trading-form-group">
             <label class="trading-label">Date & Time</label>
@@ -88,7 +88,7 @@ title: Trading Logs
 
       <!-- Setup Quality -->
       <div style="margin-bottom: 2rem;">
-        <h4 style="color: var(--trading-gold); margin-bottom: 1rem;">Setup Analysis</h4>
+        <h4 style="color: var(--gold); margin-bottom: 1rem;">Setup Analysis</h4>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
           <div class="trading-form-group">
             <label class="trading-label">Setup Quality: <span id="setup-value">3</span>/5</label>
@@ -108,7 +108,7 @@ title: Trading Logs
 
       <!-- Rules Compliance -->
       <div style="margin-bottom: 2rem;">
-        <h4 style="color: var(--trading-gold); margin-bottom: 1rem;">Rules Compliance</h4>
+        <h4 style="color: var(--gold); margin-bottom: 1rem;">Rules Compliance</h4>
         <div class="trading-checklist">
           <label class="trading-checkbox">
             <input type="checkbox" id="rule-structure">
@@ -135,7 +135,7 @@ title: Trading Logs
 
       <!-- Execution & Psychology -->
       <div style="margin-bottom: 2rem;">
-        <h4 style="color: var(--trading-gold); margin-bottom: 1rem;">Execution & Psychology</h4>
+        <h4 style="color: var(--gold); margin-bottom: 1rem;">Execution & Psychology</h4>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
           <div class="trading-form-group">
             <label class="trading-label">Execution Quality: <span id="execution-value">3</span>/5</label>
@@ -208,7 +208,7 @@ title: Trading Logs
   <div class="tab-content" id="weekly-review">
     <div class="trading-card">
       <h3 style="margin-bottom: 2rem;">Weekly Review Template</h3>
-      <p style="color: var(--trading-text-muted); margin-bottom: 2rem;">Complete this every Sunday (30 min)</p>
+      <p style="color: var(--text-muted); margin-bottom: 2rem;">Complete this every Sunday (30 min)</p>
 
       <form id="review-form">
         <div class="trading-form-group">

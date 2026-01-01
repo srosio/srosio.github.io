@@ -150,7 +150,7 @@
     const container = document.getElementById('trades-table-container');
 
     if (trades.length === 0) {
-      container.innerHTML = '<p style="text-align: center; color: var(--trading-text-muted); padding: 2rem;">No trades logged yet.</p>';
+      container.innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 2rem;">No trades logged yet.</p>';
       return;
     }
 
@@ -337,14 +337,14 @@ ${trade.screenshot ? 'Screenshot: ' + trade.screenshot : ''}
     const container = document.getElementById('reviews-list');
 
     if (reviews.length === 0) {
-      container.innerHTML = '<p style="text-align: center; color: var(--trading-text-muted); padding: 2rem;">No weekly reviews yet.</p>';
+      container.innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 2rem;">No weekly reviews yet.</p>';
       return;
     }
 
     let html = '';
     reviews.reverse().forEach((review, index) => {
       html += `<div class="trading-card" style="margin-bottom: 1rem;">`;
-      html += `<h4 style="color: var(--trading-gold);">Week Ending: ${new Date(review.weekEnding).toLocaleDateString()}</h4>`;
+      html += `<h4 style="color: var(--gold);">Week Ending: ${new Date(review.weekEnding).toLocaleDateString()}</h4>`;
       html += `<p><strong>Best Setup:</strong> ${review.bestSetup}</p>`;
       html += `<p><strong>Worst Mistake:</strong> ${review.worstMistake}</p>`;
       html += `<p><strong>Rules to Add:</strong> ${review.rulesToAdd}</p>`;

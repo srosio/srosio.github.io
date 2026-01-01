@@ -17,7 +17,7 @@ title: Trading Systems Documentation
   <div class="trading-layout">
     <!-- Sidebar Navigation -->
     <div class="trading-sidebar">
-      <h3 style="color: var(--trading-gold); margin-bottom: 1rem;">Quick Navigation</h3>
+      <h3 style="color: var(--gold); margin-bottom: 1rem;">Quick Navigation</h3>
       <ul class="sidebar-nav">
         <li><a href="#system-1" class="active">System 1: Structure Framework</a></li>
         <li><a href="#system-2">System 2: Delta Confirmation</a></li>
@@ -26,7 +26,7 @@ title: Trading Systems Documentation
         <li><a href="#why-these">Why These 3?</a></li>
         <li><a href="#reality-check">Reality Check</a></li>
       </ul>
-      <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--trading-border);">
+      <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
         <a href="/trading-dashboard" class="trading-btn trading-btn-secondary" style="width: 100%; text-align: center; text-decoration: none; display: block; margin-bottom: 0.5rem;">
           ← Back to Dashboard
         </a>
@@ -41,7 +41,7 @@ title: Trading Systems Documentation
       <!-- System 1 -->
       <div class="system-card" id="system-1">
         <h3>📋 System 1: Session-Based Structure Framework</h3>
-        <p style="color: var(--trading-blue); font-size: 1.1rem; font-weight: 600;">Removes Discretion</p>
+        <p style="color: var(--blue); font-size: 1.1rem; font-weight: 600;">Removes Discretion</p>
 
         <h4>Why this fixes emotional trading:</h4>
         <p>You trade emotionally because you're <strong>reacting</strong> instead of <strong>executing a system</strong>.</p>
@@ -74,8 +74,8 @@ title: Trading Systems Documentation
 
         <h5>Entry Rules (All Must Be True):</h5>
 
-        <div class="trading-card" style="background: rgba(14, 203, 129, 0.05); border-color: var(--trading-green);">
-          <h4 style="color: var(--trading-green); margin-top: 0;">For LONG Entries:</h4>
+        <div class="trading-card" style="background: rgba(14, 203, 129, 0.05); border-color: var(--green);">
+          <h4 style="color: var(--green); margin-top: 0;">For LONG Entries:</h4>
           <ol>
             <li>15M shows bullish structure (higher high made in last 4 hours)</li>
             <li>Price swept a liquidity pool below (stop hunt completed)</li>
@@ -85,8 +85,8 @@ title: Trading Systems Documentation
           </ol>
         </div>
 
-        <div class="trading-card" style="background: rgba(246, 70, 93, 0.05); border-color: var(--trading-red);">
-          <h4 style="color: var(--trading-red); margin-top: 0;">For SHORT Entries:</h4>
+        <div class="trading-card" style="background: rgba(246, 70, 93, 0.05); border-color: var(--red);">
+          <h4 style="color: var(--red); margin-top: 0;">For SHORT Entries:</h4>
           <ol>
             <li>15M shows bearish structure (lower low made in last 4 hours)</li>
             <li>Price swept a liquidity pool above (stop hunt completed)</li>
@@ -115,41 +115,41 @@ title: Trading Systems Documentation
         <h5>Why This Works for Emotional Traders:</h5>
         <div class="trading-grid">
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> No decisions during live trading<br>
-            <small style="color: var(--trading-text-muted);">You already know what you're looking for</small>
+            <strong style="color: var(--green);">✓</strong> No decisions during live trading<br>
+            <small style="color: var(--text-muted);">You already know what you're looking for</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Binary checklist<br>
-            <small style="color: var(--trading-text-muted);">Either all criteria met or no trade</small>
+            <strong style="color: var(--green);">✓</strong> Binary checklist<br>
+            <small style="color: var(--text-muted);">Either all criteria met or no trade</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Time restriction<br>
-            <small style="color: var(--trading-text-muted);">Can't overtrade at 6 hours/day</small>
+            <strong style="color: var(--green);">✓</strong> Time restriction<br>
+            <small style="color: var(--text-muted);">Can't overtrade at 6 hours/day</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Automatic exits<br>
-            <small style="color: var(--trading-text-muted);">No "should I hold?" anxiety</small>
+            <strong style="color: var(--green);">✓</strong> Automatic exits<br>
+            <small style="color: var(--text-muted);">No "should I hold?" anxiety</small>
           </div>
         </div>
 
         <h5>Practice Protocol:</h5>
         <div class="trading-card">
-          <p><strong style="color: var(--trading-gold);">Week 1-2:</strong> Paper trade, mark setups ONLY (no execution)</p>
-          <ul style="color: var(--trading-text-muted);">
+          <p><strong style="color: var(--gold);">Week 1-2:</strong> Paper trade, mark setups ONLY (no execution)</p>
+          <ul style="color: var(--text-muted);">
             <li>Goal: Identify 10 valid A+ setups</li>
             <li>Track: How many criteria-compliant setups appear daily?</li>
           </ul>
         </div>
         <div class="trading-card">
-          <p><strong style="color: var(--trading-gold);">Week 3-4:</strong> Sim trade with real money rules</p>
-          <ul style="color: var(--trading-text-muted);">
+          <p><strong style="color: var(--gold);">Week 3-4:</strong> Sim trade with real money rules</p>
+          <ul style="color: var(--text-muted);">
             <li>Goal: Execute 20 rule-compliant trades</li>
             <li>Track: Win rate, avg RR, rules broken</li>
           </ul>
         </div>
         <div class="trading-card">
-          <p><strong style="color: var(--trading-gold);">Week 5+:</strong> Live trade 0.5% risk</p>
-          <ul style="color: var(--trading-text-muted);">
+          <p><strong style="color: var(--gold);">Week 5+:</strong> Live trade 0.5% risk</p>
+          <ul style="color: var(--text-muted);">
             <li>Only after 60%+ win rate in sim</li>
             <li>Increase to 1% after 50 consecutive rule-compliant trades</li>
           </ul>
@@ -159,7 +159,7 @@ title: Trading Systems Documentation
       <!-- System 2 -->
       <div class="system-card" id="system-2">
         <h3>📈 System 2: Volume Delta Confirmation</h3>
-        <p style="color: var(--trading-blue); font-size: 1.1rem; font-weight: 600;">Eliminates False Signals</p>
+        <p style="color: var(--blue); font-size: 1.1rem; font-weight: 600;">Eliminates False Signals</p>
 
         <h4>Why this fixes emotional trading:</h4>
         <p>You chase moves or exit early because you can't distinguish <strong>real breakouts from noise</strong>.</p>
@@ -177,8 +177,8 @@ title: Trading Systems Documentation
 
         <h5>How Delta Filters Entries:</h5>
 
-        <div class="trading-card" style="background: rgba(14, 203, 129, 0.05); border-color: var(--trading-green);">
-          <h4 style="color: var(--trading-green); margin-top: 0;">For LONG entries (after 5M bullish BOS):</h4>
+        <div class="trading-card" style="background: rgba(14, 203, 129, 0.05); border-color: var(--green);">
+          <h4 style="color: var(--green); margin-top: 0;">For LONG entries (after 5M bullish BOS):</h4>
           <p><strong>Required Delta Behavior:</strong></p>
           <ol>
             <li><strong>During sweep down:</strong> Delta divergence
@@ -201,8 +201,8 @@ title: Trading Systems Documentation
           </ol>
         </div>
 
-        <div class="trading-card" style="background: rgba(246, 70, 93, 0.05); border-color: var(--trading-red);">
-          <h4 style="color: var(--trading-red); margin-top: 0;">For SHORT entries (after 5M bearish BOS):</h4>
+        <div class="trading-card" style="background: rgba(246, 70, 93, 0.05); border-color: var(--red);">
+          <h4 style="color: var(--red); margin-top: 0;">For SHORT entries (after 5M bearish BOS):</h4>
           <p><strong>Required Delta Behavior:</strong></p>
           <ol>
             <li><strong>During sweep up:</strong> Delta divergence
@@ -228,7 +228,7 @@ title: Trading Systems Documentation
         <h5>Real Example (BTC):</h5>
 
         <div class="trading-card" style="background: rgba(246, 70, 93, 0.05);">
-          <h4 style="color: var(--trading-red); margin-top: 0;">❌ Bad Long (Would Trap You):</h4>
+          <h4 style="color: var(--red); margin-top: 0;">❌ Bad Long (Would Trap You):</h4>
           <ul>
             <li>Price breaks 5M resistance</li>
             <li>But CVD is falling (sellers distributing into breakout)</li>
@@ -238,7 +238,7 @@ title: Trading Systems Documentation
         </div>
 
         <div class="trading-card" style="background: rgba(14, 203, 129, 0.05);">
-          <h4 style="color: var(--trading-green); margin-top: 0;">✓ Good Long (High Probability):</h4>
+          <h4 style="color: var(--green); margin-top: 0;">✓ Good Long (High Probability):</h4>
           <ul>
             <li>Price sweeps low, CVD diverges positive</li>
             <li>Break of 5M resistance with +$800k delta candle</li>
@@ -251,20 +251,20 @@ title: Trading Systems Documentation
         <h5>Why This Works for Emotional Traders:</h5>
         <div class="trading-grid">
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Objective filter<br>
-            <small style="color: var(--trading-text-muted);">Either delta confirms or it doesn't</small>
+            <strong style="color: var(--green);">✓</strong> Objective filter<br>
+            <small style="color: var(--text-muted);">Either delta confirms or it doesn't</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Reduces fakeouts<br>
-            <small style="color: var(--trading-text-muted);">Most failed trades show delta divergence</small>
+            <strong style="color: var(--green);">✓</strong> Reduces fakeouts<br>
+            <small style="color: var(--text-muted);">Most failed trades show delta divergence</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Builds confidence<br>
-            <small style="color: var(--trading-text-muted);">Trading WITH institutional flow</small>
+            <strong style="color: var(--green);">✓</strong> Builds confidence<br>
+            <small style="color: var(--text-muted);">Trading WITH institutional flow</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Early warning system<br>
-            <small style="color: var(--trading-text-muted);">Advance notice if delta shifts</small>
+            <strong style="color: var(--green);">✓</strong> Early warning system<br>
+            <small style="color: var(--text-muted);">Advance notice if delta shifts</small>
           </div>
         </div>
 
@@ -281,11 +281,11 @@ title: Trading Systems Documentation
       <!-- System 3 -->
       <div class="system-card" id="system-3">
         <h3>🔒 System 3: Daily Trade Limit + Forced Review</h3>
-        <p style="color: var(--trading-blue); font-size: 1.1rem; font-weight: 600;">Breaks Emotional Loops</p>
+        <p style="color: var(--blue); font-size: 1.1rem; font-weight: 600;">Breaks Emotional Loops</p>
 
         <h4>Why this fixes emotional trading:</h4>
         <p>You revenge trade. You overtrade. You chase after missing moves.</p>
-        <p style="font-size: 1.1rem; color: var(--trading-gold);"><strong>The solution isn't willpower. It's systems that remove choice.</strong></p>
+        <p style="font-size: 1.1rem; color: var(--gold);"><strong>The solution isn't willpower. It's systems that remove choice.</strong></p>
 
         <h4>The System:</h4>
 
@@ -326,8 +326,8 @@ title: Trading Systems Documentation
         </div>
 
         <h5>The Psychological Trick:</h5>
-        <div class="trading-card" style="background: rgba(240, 185, 11, 0.05); border-color: var(--trading-gold);">
-          <p style="font-size: 1.1rem;"><strong style="color: var(--trading-gold);">Daily limit = scarcity mindset</strong></p>
+        <div class="trading-card" style="background: rgba(240, 185, 11, 0.05); border-color: var(--gold);">
+          <p style="font-size: 1.1rem;"><strong style="color: var(--gold);">Daily limit = scarcity mindset</strong></p>
           <p>When you only get 2 trades, you become <strong>selective</strong> instead of <strong>reactive</strong>.</p>
           <p style="margin-top: 1rem;">You won't waste a trade on:</p>
           <ul>
@@ -339,7 +339,7 @@ title: Trading Systems Documentation
 
         <h5>Advanced Layer - The "Trade Token" System:</h5>
         <div class="trading-card">
-          <p><strong style="color: var(--trading-gold);">Each week starts with 8 tokens.</strong></p>
+          <p><strong style="color: var(--gold);">Each week starts with 8 tokens.</strong></p>
           <table class="trading-table" style="margin-top: 1rem;">
             <thead>
               <tr>
@@ -371,20 +371,20 @@ title: Trading Systems Documentation
         <h5>Why This Works for Emotional Traders:</h5>
         <div class="trading-grid">
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Removes volume pressure<br>
-            <small style="color: var(--trading-text-muted);">Success = quality, not quantity</small>
+            <strong style="color: var(--green);">✓</strong> Removes volume pressure<br>
+            <small style="color: var(--text-muted);">Success = quality, not quantity</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Forces pattern recognition<br>
-            <small style="color: var(--trading-text-muted);">Identify your best setups</small>
+            <strong style="color: var(--green);">✓</strong> Forces pattern recognition<br>
+            <small style="color: var(--text-muted);">Identify your best setups</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Breaks revenge loops<br>
-            <small style="color: var(--trading-text-muted);">Can't chase if out of trades</small>
+            <strong style="color: var(--green);">✓</strong> Breaks revenge loops<br>
+            <small style="color: var(--text-muted);">Can't chase if out of trades</small>
           </div>
           <div class="trading-card">
-            <strong style="color: var(--trading-green);">✓</strong> Creates objectivity<br>
-            <small style="color: var(--trading-text-muted);">Review while NOT in position</small>
+            <strong style="color: var(--green);">✓</strong> Creates objectivity<br>
+            <small style="color: var(--text-muted);">Review while NOT in position</small>
           </div>
         </div>
       </div>
@@ -393,24 +393,24 @@ title: Trading Systems Documentation
       <div class="system-card" id="integration">
         <h3>📅 Your 90-Day Integration Plan</h3>
 
-        <div class="trading-card" style="background: rgba(56, 97, 251, 0.05); border-color: var(--trading-blue);">
-          <h4 style="color: var(--trading-blue); margin-top: 0;">Month 1: Build The Infrastructure</h4>
+        <div class="trading-card" style="background: rgba(56, 97, 251, 0.05); border-color: var(--blue);">
+          <h4 style="color: var(--blue); margin-top: 0;">Month 1: Build The Infrastructure</h4>
           <ul>
             <li><strong>Week 1-2:</strong> Session framework + pre-market checklists only (no live trading)</li>
             <li><strong>Week 3-4:</strong> Add delta analysis to paper trades (10-20 setups minimum)</li>
           </ul>
         </div>
 
-        <div class="trading-card" style="background: rgba(240, 185, 11, 0.05); border-color: var(--trading-gold);">
-          <h4 style="color: var(--trading-gold); margin-top: 0;">Month 2: Controlled Execution</h4>
+        <div class="trading-card" style="background: rgba(240, 185, 11, 0.05); border-color: var(--gold);">
+          <h4 style="color: var(--gold); margin-top: 0;">Month 2: Controlled Execution</h4>
           <ul>
             <li><strong>Week 5-6:</strong> Live trade with 0.5% risk, 2/day limit, full logging</li>
             <li><strong>Week 7-8:</strong> Review data, identify best setup patterns, refine rules</li>
           </ul>
         </div>
 
-        <div class="trading-card" style="background: rgba(14, 203, 129, 0.05); border-color: var(--trading-green);">
-          <h4 style="color: var(--trading-green); margin-top: 0;">Month 3: Systematic Scaling</h4>
+        <div class="trading-card" style="background: rgba(14, 203, 129, 0.05); border-color: var(--green);">
+          <h4 style="color: var(--green); margin-top: 0;">Month 3: Systematic Scaling</h4>
           <ul>
             <li><strong>Week 9-10:</strong> Increase to 1% risk IF win rate &gt;60% AND rules compliance &gt;90%</li>
             <li><strong>Week 11-12:</strong> Full system (1-1.5% risk, possible 3/day if data supports)</li>
@@ -473,10 +473,10 @@ title: Trading Systems Documentation
         </div>
 
         <div style="margin-top: 2rem; padding: 2rem; background: linear-gradient(135deg, rgba(240, 185, 11, 0.1) 0%, rgba(56, 97, 251, 0.1) 100%); border-radius: 12px; text-align: center;">
-          <p style="font-size: 1.5rem; color: var(--trading-gold); font-weight: 700; margin-bottom: 1rem;">
+          <p style="font-size: 1.5rem; color: var(--gold); font-weight: 700; margin-bottom: 1rem;">
             Most traders fail because they want the edge without the discipline.
           </p>
-          <p style="font-size: 1.8rem; color: var(--trading-green); font-weight: 700;">
+          <p style="font-size: 1.8rem; color: var(--green); font-weight: 700;">
             The edge IS the discipline.
           </p>
         </div>
