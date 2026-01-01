@@ -14,10 +14,6 @@ title: Trading Systems Documentation
 </div>
 
 <div class="container">
-  <div class="trading-alert info" style="margin-bottom: 2rem;">
-    <strong>Based on your profile:</strong> 4 years experience, emotional trading patterns, intraday preference, targeting 60%+ win rate.
-  </div>
-
   <div class="trading-layout">
     <!-- Sidebar Navigation -->
     <div class="trading-sidebar">
