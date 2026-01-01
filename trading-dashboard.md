@@ -22,7 +22,7 @@ title: Trading Dashboard
       <div class="trading-progress">
         <div class="trading-progress-bar" id="today-progress" style="width: 0%"></div>
       </div>
-      <div style="font-size: 0.75rem; color: var(--trading-text-muted); margin-top: 0.5rem;">
+      <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem;">
         Limit: 2 trades/day
       </div>
     </div>
@@ -33,7 +33,7 @@ title: Trading Dashboard
       <div class="trading-progress">
         <div class="trading-progress-bar" id="week-progress" style="width: 0%"></div>
       </div>
-      <div style="font-size: 0.75rem; color: var(--trading-text-muted); margin-top: 0.5rem;">
+      <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem;">
         Limit: 8 trades/week
       </div>
     </div>
@@ -42,7 +42,7 @@ title: Trading Dashboard
       <div class="stat-label">Win Rate</div>
       <div class="stat-value" id="dash-winrate">0%</div>
       <div style="font-size: 0.75rem; margin-top: 0.5rem;">
-        Target: <span style="color: var(--trading-gold);">60%+</span>
+        Target: <span style="color: var(--gold);">60%+</span>
       </div>
     </div>
 
@@ -50,7 +50,7 @@ title: Trading Dashboard
       <div class="stat-label">Avg Risk:Reward</div>
       <div class="stat-value blue" id="dash-rr">0.00</div>
       <div style="font-size: 0.75rem; margin-top: 0.5rem;">
-        Target: <span style="color: var(--trading-gold);">1.5:1+</span>
+        Target: <span style="color: var(--gold);">1.5:1+</span>
       </div>
     </div>
 
@@ -58,7 +58,7 @@ title: Trading Dashboard
       <div class="stat-label">Rule Compliance</div>
       <div class="stat-value" id="dash-compliance">0%</div>
       <div style="font-size: 0.75rem; margin-top: 0.5rem;">
-        Target: <span style="color: var(--trading-gold);">100%</span>
+        Target: <span style="color: var(--gold);">100%</span>
       </div>
     </div>
 
@@ -66,8 +66,8 @@ title: Trading Dashboard
       <div class="stat-label">Total Trades</div>
       <div class="stat-value" id="dash-total">0</div>
       <div style="font-size: 0.75rem; margin-top: 0.5rem;">
-        <span style="color: var(--trading-green);" id="dash-wins">0</span> W /
-        <span style="color: var(--trading-red);" id="dash-losses">0</span> L
+        <span style="color: var(--green);" id="dash-wins">0</span> W /
+        <span style="color: var(--red);" id="dash-losses">0</span> L
       </div>
     </div>
   </div>
@@ -115,20 +115,20 @@ title: Trading Dashboard
             <span style="font-weight: 600;">London Session</span>
             <span class="trading-badge" id="london-status">Closed</span>
           </div>
-          <div style="color: var(--trading-text-muted); font-size: 0.875rem;">08:00 - 12:00 UTC</div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;">08:00 - 12:00 UTC</div>
         </div>
         <div>
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
             <span style="font-weight: 600;">New York Session</span>
             <span class="trading-badge" id="ny-status">Closed</span>
           </div>
-          <div style="color: var(--trading-text-muted); font-size: 0.875rem;">13:00 - 17:00 UTC</div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;">13:00 - 17:00 UTC</div>
         </div>
-        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--trading-border);">
-          <div style="text-align: center; color: var(--trading-text-muted); font-size: 0.875rem;">
+        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+          <div style="text-align: center; color: var(--text-muted); font-size: 0.875rem;">
             Current UTC Time
           </div>
-          <div id="current-time" style="text-align: center; font-size: 1.5rem; font-weight: 700; color: var(--trading-gold); margin-top: 0.5rem;">
+          <div id="current-time" style="text-align: center; font-size: 1.5rem; font-weight: 700; color: var(--gold); margin-top: 0.5rem;">
             --:--:--
           </div>
         </div>
@@ -142,13 +142,13 @@ title: Trading Dashboard
           <div class="trading-card-icon">📊</div>
           Recent Trades
         </div>
-        <a href="/trading-logs" style="color: var(--trading-gold); text-decoration: none; font-size: 0.875rem;">
+        <a href="/trading-logs" style="color: var(--gold); text-decoration: none; font-size: 0.875rem;">
           View All →
         </a>
       </div>
       <div id="recent-trades">
-        <p style="text-align: center; color: var(--trading-text-muted); padding: 2rem;">
-          No recent trades. <a href="/trading-logs" style="color: var(--trading-gold);">Log your first trade</a>
+        <p style="text-align: center; color: var(--text-muted); padding: 2rem;">
+          No recent trades. <a href="/trading-logs" style="color: var(--gold);">Log your first trade</a>
         </p>
       </div>
     </div>
@@ -161,50 +161,50 @@ title: Trading Dashboard
         <div class="trading-card-icon">🎯</div>
         Your 3 Critical Trading Systems
       </div>
-      <a href="/trading-systems" style="color: var(--trading-gold); text-decoration: none; font-size: 0.875rem;">
+      <a href="/trading-systems" style="color: var(--gold); text-decoration: none; font-size: 0.875rem;">
         Full Documentation →
       </a>
     </div>
     <div class="trading-grid">
       <div class="dashboard-widget">
         <div style="font-size: 2rem; margin-bottom: 1rem;">📋</div>
-        <h3 style="color: var(--trading-gold); margin-bottom: 0.5rem;">System 1</h3>
-        <h4 style="color: var(--trading-text); font-size: 1rem; margin-bottom: 1rem;">Session-Based Structure</h4>
-        <p style="color: var(--trading-text-muted); font-size: 0.875rem; line-height: 1.6;">
+        <h3 style="color: var(--gold); margin-bottom: 0.5rem;">System 1</h3>
+        <h4 style="color: var(--text); font-size: 1rem; margin-bottom: 1rem;">Session-Based Structure</h4>
+        <p style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.6;">
           Removes discretion through strict time windows and pre-marked levels. No decisions during live candles.
         </p>
-        <ul style="list-style: none; padding: 0; margin-top: 1rem; color: var(--trading-text); font-size: 0.875rem;">
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ Pre-market checklists</li>
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ London/NY windows only</li>
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ Mechanical entry/exit rules</li>
+        <ul style="list-style: none; padding: 0; margin-top: 1rem; color: var(--text); font-size: 0.875rem;">
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ Pre-market checklists</li>
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ London/NY windows only</li>
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ Mechanical entry/exit rules</li>
         </ul>
       </div>
 
       <div class="dashboard-widget">
         <div style="font-size: 2rem; margin-bottom: 1rem;">📈</div>
-        <h3 style="color: var(--trading-gold); margin-bottom: 0.5rem;">System 2</h3>
-        <h4 style="color: var(--trading-text); font-size: 1rem; margin-bottom: 1rem;">Volume Delta Confirmation</h4>
-        <p style="color: var(--trading-text-muted); font-size: 0.875rem; line-height: 1.6;">
+        <h3 style="color: var(--gold); margin-bottom: 0.5rem;">System 2</h3>
+        <h4 style="color: var(--text); font-size: 1rem; margin-bottom: 1rem;">Volume Delta Confirmation</h4>
+        <p style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.6;">
           Eliminates false signals by showing who's more urgent. Objective filter for real breakouts vs. noise.
         </p>
-        <ul style="list-style: none; padding: 0; margin-top: 1rem; color: var(--trading-text); font-size: 0.875rem;">
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ CVD divergence detection</li>
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ Delta spike confirmation</li>
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ Institutional flow alignment</li>
+        <ul style="list-style: none; padding: 0; margin-top: 1rem; color: var(--text); font-size: 0.875rem;">
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ CVD divergence detection</li>
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ Delta spike confirmation</li>
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ Institutional flow alignment</li>
         </ul>
       </div>
 
       <div class="dashboard-widget">
         <div style="font-size: 2rem; margin-bottom: 1rem;">🔒</div>
-        <h3 style="color: var(--trading-gold); margin-bottom: 0.5rem;">System 3</h3>
-        <h4 style="color: var(--trading-text); font-size: 1rem; margin-bottom: 1rem;">Trade Limits + Review</h4>
-        <p style="color: var(--trading-text-muted); font-size: 0.875rem; line-height: 1.6;">
+        <h3 style="color: var(--gold); margin-bottom: 0.5rem;">System 3</h3>
+        <h4 style="color: var(--text); font-size: 1rem; margin-bottom: 1rem;">Trade Limits + Review</h4>
+        <p style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.6;">
           Breaks emotional loops through forced scarcity and systematic review. Quality over quantity.
         </p>
-        <ul style="list-style: none; padding: 0; margin-top: 1rem; color: var(--trading-text); font-size: 0.875rem;">
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ 2 trades/day maximum</li>
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ 2-hour cooling period</li>
-          <li style="padding: 0.5rem 0; border-top: 1px solid var(--trading-border);">✓ Weekly performance review</li>
+        <ul style="list-style: none; padding: 0; margin-top: 1rem; color: var(--text); font-size: 0.875rem;">
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ 2 trades/day maximum</li>
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ 2-hour cooling period</li>
+          <li style="padding: 0.5rem 0; border-top: 1px solid var(--border-color);">✓ Weekly performance review</li>
         </ul>
       </div>
     </div>
@@ -220,31 +220,31 @@ title: Trading Dashboard
     </div>
     <div class="trading-checklist">
       <div class="trading-checklist-item">
-        <input type="checkbox" id="check1" style="width: 20px; height: 20px; accent-color: var(--trading-gold);">
+        <input type="checkbox" id="check1" style="width: 20px; height: 20px; accent-color: var(--gold);">
         <label for="check1">Mark yesterday's high/low/close</label>
       </div>
       <div class="trading-checklist-item">
-        <input type="checkbox" id="check2" style="width: 20px; height: 20px; accent-color: var(--trading-gold);">
+        <input type="checkbox" id="check2" style="width: 20px; height: 20px; accent-color: var(--gold);">
         <label for="check2">Mark Asian session high/low (00:00-08:00 UTC)</label>
       </div>
       <div class="trading-checklist-item">
-        <input type="checkbox" id="check3" style="width: 20px; height: 20px; accent-color: var(--trading-gold);">
+        <input type="checkbox" id="check3" style="width: 20px; height: 20px; accent-color: var(--gold);">
         <label for="check3">Mark current week high/low</label>
       </div>
       <div class="trading-checklist-item">
-        <input type="checkbox" id="check4" style="width: 20px; height: 20px; accent-color: var(--trading-gold);">
+        <input type="checkbox" id="check4" style="width: 20px; height: 20px; accent-color: var(--gold);">
         <label for="check4">Identify 3 liquidity pools (equal highs/lows, round numbers)</label>
       </div>
       <div class="trading-checklist-item">
-        <input type="checkbox" id="check5" style="width: 20px; height: 20px; accent-color: var(--trading-gold);">
+        <input type="checkbox" id="check5" style="width: 20px; height: 20px; accent-color: var(--gold);">
         <label for="check5">Check funding rate (>0.05% or <-0.03% = caution)</label>
       </div>
       <div class="trading-checklist-item">
-        <input type="checkbox" id="check6" style="width: 20px; height: 20px; accent-color: var(--trading-gold);">
+        <input type="checkbox" id="check6" style="width: 20px; height: 20px; accent-color: var(--gold);">
         <label for="check6">Check OI trend (rising or falling?)</label>
       </div>
       <div class="trading-checklist-item">
-        <input type="checkbox" id="check7" style="width: 20px; height: 20px; accent-color: var(--trading-gold);">
+        <input type="checkbox" id="check7" style="width: 20px; height: 20px; accent-color: var(--gold);">
         <label for="check7">Define higher timeframe bias (15M structure: bullish/bearish/neutral)</label>
       </div>
     </div>
@@ -364,7 +364,7 @@ title: Trading Dashboard
     const container = document.getElementById('recent-trades');
 
     if (trades.length === 0) {
-      container.innerHTML = '<p style="text-align: center; color: var(--trading-text-muted); padding: 2rem;">No recent trades. <a href="/trading-logs" style="color: var(--trading-gold);">Log your first trade</a></p>';
+      container.innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 2rem;">No recent trades. <a href="/trading-logs" style="color: var(--gold);">Log your first trade</a></p>';
       return;
     }
 

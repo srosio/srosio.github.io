@@ -57,7 +57,7 @@ title: Performance Analytics
           <div class="widget-title">Win Rate</div>
         </div>
         <div class="widget-value green" id="long-winrate">0%</div>
-        <p style="color: var(--trading-text-muted); margin-top: 1rem;">
+        <p style="color: var(--text-muted); margin-top: 1rem;">
           <span id="long-count">0</span> trades | Avg P&L: <span id="long-avg">0%</span>
         </p>
       </div>
@@ -70,7 +70,7 @@ title: Performance Analytics
           <div class="widget-title">Win Rate</div>
         </div>
         <div class="widget-value red" id="short-winrate">0%</div>
-        <p style="color: var(--trading-text-muted); margin-top: 1rem;">
+        <p style="color: var(--text-muted); margin-top: 1rem;">
           <span id="short-count">0</span> trades | Avg P&L: <span id="short-avg">0%</span>
         </p>
       </div>
@@ -375,7 +375,7 @@ title: Performance Analytics
 
   function renderTimeline(trades) {
     if (trades.length < 5) {
-      document.getElementById('timeline').innerHTML = '<p style="text-align: center; color: var(--trading-text-muted); padding: 2rem;">Not enough trades for timeline analysis (minimum 5 required)</p>';
+      document.getElementById('timeline').innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 2rem;">Not enough trades for timeline analysis (minimum 5 required)</p>';
       return;
     }
 
@@ -386,7 +386,7 @@ title: Performance Analytics
       const color = t.outcome === 'win' ? 'green' : t.outcome === 'loss' ? 'red' : 'gold';
       const height = Math.abs(t.pnl) * 10 + 20;
       html += `<div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; min-width: 40px;">`;
-      html += `<span style="font-size: 0.75rem; color: var(--trading-text-muted);">${new Date(t.date).toLocaleDateString().slice(0, 5)}</span>`;
+      html += `<span style="font-size: 0.75rem; color: var(--text-muted);">${new Date(t.date).toLocaleDateString().slice(0, 5)}</span>`;
       html += `<div style="width: 30px; height: ${height}px; background: var(--trading-${color}); border-radius: 4px; opacity: 0.8;" title="${t.pair}: ${t.pnl}%"></div>`;
       html += `<span style="font-size: 0.75rem; font-weight: 600; color: var(--trading-${color});">${t.pnl > 0 ? '+' : ''}${t.pnl}%</span>`;
       html += `</div>`;
