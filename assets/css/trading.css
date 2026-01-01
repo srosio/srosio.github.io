@@ -417,6 +417,15 @@ body.trading-page {
   border-bottom-color: var(--trading-gold);
 }
 
+/* Tab Content */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
 /* Alert */
 .trading-alert {
   padding: 1rem 1.5rem;
@@ -534,23 +543,166 @@ body.trading-page {
 
   .stats-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .trading-header {
+    padding: 1.5rem 0;
   }
 
   .trading-header h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .trading-header p {
+    font-size: 0.95rem;
   }
 
   .trading-tabs {
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  .trading-tab {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
   }
 
   .trading-table {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .trading-table th,
   .trading-table td {
-    padding: 0.5rem;
+    padding: 0.5rem 0.25rem;
+    white-space: nowrap;
+  }
+
+  .trading-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .trading-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .trading-card h4 {
+    font-size: 1rem;
+  }
+
+  .trading-btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.875rem;
+  }
+
+  .trading-form-group {
+    margin-bottom: 1rem;
+  }
+
+  .trading-input,
+  .trading-select,
+  .trading-textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .stat-value {
+    font-size: 1.5rem;
+  }
+
+  .widget-value {
+    font-size: 2rem;
+  }
+
+  .trading-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .system-card {
+    padding: 1rem;
+  }
+
+  .trading-checklist {
+    padding: 1rem;
+  }
+
+  .trading-badge {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .trading-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+  }
+
+  .widget-value {
+    font-size: 1.5rem;
+  }
+
+  .trading-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trading-btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .trading-table {
+    font-size: 0.7rem;
+  }
+
+  .trading-card-title {
+    font-size: 1rem;
+  }
+
+  .trading-sidebar {
+    padding: 1rem;
+  }
+
+  .sidebar-nav a {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+/* Fix button groups on mobile */
+@media (max-width: 768px) {
+  [style*="display: flex"][style*="gap"] {
+    flex-wrap: wrap;
+  }
+
+  [style*="display: grid"][style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Make action buttons stack on mobile */
+  .trading-card > div[style*="display: flex"] {
+    flex-direction: column;
+  }
+
+  .trading-card > div[style*="display: grid"][style*="gap: 1rem"] {
+    grid-template-columns: 1fr;
   }
 }
 
